@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "239737665425",
+    "project_id": "sound-serenity",
+    "storage_bucket": "sound-serenity.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239737665425:android:730248c661782e3ca98c30",
+        "android_client_info": {
+          "package_name": "com.example.intro_video"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239737665425-s33p7sta5vnnkl4pd5sp3fvjs8bbqv8s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.intro_video",
+            "certificate_hash": "fed6d6ffc255fb8eb364c57c009c7bb3b377d327"
+          }
+        },
+        {
+          "client_id": "239737665425-5timsnqc59ctuavp22gq1ctq4clr21h1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJtx6y5lg4HP8dqNM2jMUfKm9SKZEEOyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239737665425-5timsnqc59ctuavp22gq1ctq4clr21h1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
