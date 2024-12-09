@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Header Section -->
+
+    <!-- Separator Line after Header -->
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="left|center"
+        android:padding="16dp"
+        android:text="Welcome My Boy"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Body Section -->
+    <TextView
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Body Content"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        app:layout_constraintBottom_toTopOf="@id/footer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Footer Section -->
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Buttons in Footer Section -->
+        <ImageButton
+            android:id="@+id/bulbButton"
+            android:layout_width="58dp"
+            android:layout_height="62dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/bulb_logo" />
+
+        <ImageButton
+            android:id="@+id/alertButton"
+            android:layout_width="58dp"
+            android:layout_height="62dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerInside"
+            android:src="@android:drawable/alert_dark_frame" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/newSession"
+            android:layout_width="58dp"
+            android:layout_height="62dp"
+            android:layout_margin="8dp"
+            android:src="@android:drawable/ic_menu_add" />
+
+        <ImageButton
+            android:id="@+id/calendarButton"
+            android:layout_width="58dp"
+            android:layout_height="62dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerInside"
+            android:src="@android:drawable/ic_menu_today" />
+
+        <ImageButton
+            android:id="@+id/accountButton"
+            android:layout_width="58dp"
+            android:layout_height="62dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/acc_logo" />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
